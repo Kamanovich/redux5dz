@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main {
+    padding: 30px 0;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    height: 100vh;
+    &__card {
+        box-shadow: -5px 2px 40px #000;
+        border-radius: 20px;
+        width: 500px;
+        max-height: 1300px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px 0;
+        margin-top: 170px;
+    }
+    &__title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    &__btn {
+        color: rgb(0, 0, 0);
+        outline: none;
+        border: 1px solid #000000;
+        padding: 3px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 115, 0);
+        &:hover {
+            background-color: rgb(16, 192, 0);
+            transition: 0.3s ease-in-out;
+            color: rgb(255, 255, 255);
+        }
+        &-second {
+            border: 1px solid #000;
+            background-color: rgb(255, 115, 0);
+            color: rgb(252, 252, 252);
+            &:hover {
+                background-color: rgb(16, 192, 0);
+                transition: 0.4s ease-in-out;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+}
